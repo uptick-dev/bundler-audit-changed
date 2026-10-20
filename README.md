@@ -22,7 +22,7 @@ surfaces advisories nobody introduced. See [Companion workflow](#companion-workf
   with:
     bundler-cache: true
 
-- uses: ten-thousand-hammers/bundler-audit-changed@v1
+- uses: uptick-dev/bundler-audit-changed@v1
 ```
 
 ## How it works
@@ -82,5 +82,5 @@ jobs:
 
 ## See also
 
-[`brakeman-changed`](https://github.com/ten-thousand-hammers/brakeman-changed)
+[`brakeman-changed`](https://github.com/uptick-dev/brakeman-changed)
 applies the same idea to Brakeman warnings.
